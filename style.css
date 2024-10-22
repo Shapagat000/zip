@@ -1,0 +1,160 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-size: 18px;
+    font-family: "Hanken Grotesk", sans-serif;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+.box{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    place-content: center;
+}
+.container{
+    background-color: rgb(82, 82, 239);
+    width: 355px;
+    height: 410px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container p, h1{
+    color: hsl(0, 0%, 85%);
+}
+.container h1{
+    color: white;
+}
+.button1{
+    background: linear-gradient(hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
+    color: hsl(0, 0%, 85%);
+    border-radius: 50%;
+    border: none;
+    width: 140px;
+    height: 140px;
+    font-size: 20px;
+}
+.container2{
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 6px 8px 9px hsl(221, 79%, 95%);
+    width: 350px;
+    height: 405px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.container2 h2{
+    color: hsl(224, 30%, 27%);
+}
+.reaction{
+    background-color: hsl(0, 100%, 89%);
+    color: hsl(0, 87%, 62%);
+    border-radius: 10px;
+    width: 260px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 20px 130px 10px 5px;
+    gap: 1rem;
+}
+.reaction svg{
+    margin-left: 10px;
+}
+.reaction strong{
+    color: black;
+}
+.reaction .react{
+    color: gray;
+}
+.memory{
+    background-color: hsl(39, 100%, 89%);
+    color: hsl(39, 75%, 55%);
+    border-radius: 10px;
+    width: 260px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 20px 130px 10px 5px;
+    gap: 1rem;
+}
+.memory svg{
+    margin-left: 10px;
+}
+.memory strong{
+    color: black;
+}
+.memory .memor{
+    color: gray;
+}
+.verbal{
+    background-color: hsl(152, 100%, 89%);
+    color: hsl(173, 100%, 37%);
+    border-radius: 10px;
+    width: 260px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 20px 130px 10px 5px;
+    gap: 1rem;
+}
+.verbal svg{
+    margin-left: 10px;
+}
+.verbal strong{
+    color: black;
+}
+.verbal .ve-gray{
+    color: gray;
+}
+.visual{
+    background-color: hsl(234, 100%, 89%);
+    color: hsl(234, 85%, 45%);
+    border-radius: 10px;
+    width: 260px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 20px 130px 10px 5px;
+    gap: 1rem;
+}
+.visual svg{
+    margin-left: 10px;
+}
+.visual strong{
+    color: black;
+}
+.visual .vi-gray{
+    color: gray;
+}
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 250px;
+    height: 65px;
+    border-radius: 60px;
+    border: none;
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+}
